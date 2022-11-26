@@ -3,3 +3,10 @@
 
 /* row */
 .row {margin: 0px 20px;}
+
+/* header */
+#header .data {font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #B5B5B5;
+}
