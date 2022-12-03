@@ -2,11 +2,33 @@
 .container{width: 1000px; margin: 0 auto;}
 
 /* row */
-.row {margin: 0px 20px;}
+.row {margin: 0px 20px; position: relative; }
 
 /* header */
-#header .data {font-weight: 400;
+#header .data {
+    font-weight: 400;
     font-size: 12px;
     line-height: 20px;
     color: #B5B5B5;
+}
+#header .title {font-weight: 700;
+    font-size: 32px;
+}
+
+#header .cc {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    width: 40px;
+    height:40px;
+    background: linear-gradient(132.51deg, #ABAAAA 10.54%, #DED8D8 77.01%);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    font-weight: 400;
+
 }
