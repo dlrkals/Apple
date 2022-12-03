@@ -13,18 +13,21 @@
 }
 #header .title {font-weight: 700;
     font-size: 32px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #header .cc {
     position: absolute;
     right: 0;
-    bottom: 0px;
+    bottom: 5px;
     width: 40px;
     height:40px;
     background: linear-gradient(132.51deg, #ABAAAA 10.54%, #DED8D8 77.01%);
     border-radius: 50%;
 
-    display: flex;
+        display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
@@ -32,3 +35,12 @@
     font-weight: 400;
 
 }
+
+/* 반응형을 위한 mediaquery */
+@media(max-width:1020px){
+    .container{width: 100%;}
+
+   } 
+
+
+
