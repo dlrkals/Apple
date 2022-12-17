@@ -42,6 +42,7 @@
 .bestM .best-title .bt-desc {color: #acacac; font-size: 24px; font-weight: 300; padding-bottom: 15px;}
 
 /* recentM */
+.recentM {overflow: hidden;}
 .recentM .recent {float: left; width: 49%; margin-right: 2%;}
 .recentM .recent:last-child {margin-right: 0%;}
 .recentM h2 {font-size: 24px; font-weight: 600; margin-top: 20px; margin-bottom: 16px;
@@ -53,11 +54,32 @@
 .recentM .recent-title .rt-tit { font-size: 16px; font-weight: 300; color: #b5b5b5; }
 .recentM .recent-title { margin-top: 10px;}
 
+/* nextM */
+.nextM h2 { font-size: 24px; font-weight: 600; margin-bottom: 18px; margin-top: 20px;
+     border-top: 1px solid #d9d9d9; padding-top: 20px;}
+.nextM .next { display: flex; margin-bottom: 20px; position: relative;}
+.nextM .next .next-img {width: 100px; margin-right: 12px;}
+.nextM .next .next-tit { display: flex; flex-direction: column; justify-content: center;}
+.nextM .next .next-tit .nt-stit { font-size: 10px; color: #c92b2b;}
+.nextM .next .next-tit .nt-tit { font-size: 18px; font-weight: bold; margin: 3px 0;}
+.nextM .next .next-tit .nt-desc { font-size: 13px; color: #d5d5d5;}
+.nextM .next::after {content:""; position: absolute; right: 0; bottom: -8px;
+                    width: calc(100% - 120px); height: 1px; background: #b5b5b5;}
+
+
+
+/* play */
+.play { width: 100%; height: 60px; background: rgba(228, 228, 228,0.8); display: flex; align-items: center;
+      position: fixed; bottom: 0px; left: 0px;}
+     
+.play .play-img { width: 48px; height: 48px; padding: 8px 20px; border-radius: 5px;}
+.play .play-img img {border-radius: 5px; box-shadow: 0px 4px 4px rgba(0, 0, 0,0.5);}
+
+
 /* 반응형을 위한 mediaquery */
 @media(max-width:1020px){
     .container{width: 100%;}
-
-   } 
+} 
 
 
 
