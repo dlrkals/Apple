@@ -15,6 +15,14 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/font.css">
+    
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>  
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+                    
+
 </head>
 
 <body>
@@ -55,28 +63,49 @@
                 <div class="container">
                     <div class="row">
                         <h2>최근 재생한 음악</h2>
-                        <div class="recent">
-                            <picture>
-                                <img src="assets/images/recent_01.png" alt="오마이걸">
-                            </picture>
-                            <div class="recent-title">
-                                <span class="rt-stit">오마이걸</span>
-                                <h3 class="rt-tit">오늘의 팝 사운드</h3>                                
+                        <div class="slide">
+                            <div class="recent">
+                                <picture>
+                                    <img src="assets/images/recent_01.png" alt="오마이걸">
+                                </picture>
+                                <div class="recent-title">
+                                    <span class="rt-stit">오마이걸</span>
+                                    <h3 class="rt-tit">오늘의 팝 사운드</h3>                                
+                                </div>
                             </div>
-                        </div>
+                            <div class="recent">
+                                <picture>
+                                    <img src="assets/images/recent_02.png" alt="오마이걸">
+                                </picture>
+                                <div class="recent-title">
+                                    <span class="rt-stit">오마이걸</span>
+                                    <h3 class="rt-tit">오늘의 팝 사운드</h3>                                
+                                </div>
+                            </div>
+                            <div class="recent">
+                                <picture>
+                                    <img src="assets/images/recent_01.png" alt="오마이걸">
+                                </picture>
+                                <div class="recent-title">
+                                    <span class="rt-stit">오마이걸</span>
+                                    <h3 class="rt-tit">오늘의 팝 사운드</h3>                                
+                                </div>
+                            </div>
+                            <div class="recent">
+                                <picture>
+                                    <img src="assets/images/recent_02.png" alt="오마이걸">
+                                </picture>
+                                <div class="recent-title">
+                                    <span class="rt-stit">오마이걸</span>
+                                    <h3 class="rt-tit">오늘의 팝 사운드</h3>                                
+                                </div>
+                            </div>
+                           
 
-                        <div class="recent">
-                            <picture>
-                                <img src="assets/images/recent_02.png" alt="아이유">
-                            </picture>
-                            <div class="recent-title">
-                                <span class="rt-stit">아이유</span>
-                                <h3 class="rt-tit">오늘의 팝 사운드</h3>                                
-                            </div>
-                        </div>
                     </div>
                 </div>
-            </article>
+
+            </article>   
             <!--//recentM-->
             <article class="nextM">
                 <div class="container">
@@ -188,15 +217,83 @@
 
 <!--/section-->
 
-    <footer>
-       <div class="container">
-            <ul>
-                <li>하나</li>
-                <li>하나</li>
-                <li>하나</li>
-                <li>하나</li>
-            </ul>
-       </div>
-    </footer>
+<!-- nav -->
+<nav class="nav">
+    <ul>
+        <li>
+            <a href="#">
+                
+               
+
+                <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 4H31V11L25.32 16.68L27.82 19.18L35 12.02L34.98 12H35V0H11V2.34L15 6.34V4Z" fill="black"/>
+                    <path d="M3.2 0.200012L0.380005 3.02001L18.18 20.82L11 28L11.02 28.02H11V40H35V37.66L39.98 42.64L42.8 39.82L3.2 0.200012ZM31 36H15V29L20.68 23.32L31 33.66V36Z" fill="black"/>
+                    </svg>
+                    
+        
+                <span>menu1</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                
+                
+<svg width="32" height="36" viewBox="0 0 32 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16 0L0 12V36H10V22H22V36H32V12L16 0Z" fill="black"/>
+    </svg>
+        
+                <span>menu2</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                
+                
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M26.2 34.74L28.2 38.22C26.28 39.1 24.18 39.68 22 39.9V35.86C23.48 35.68 24.88 35.3 26.2 34.74ZM4.13998 22H0.0999756C0.319976 24.2 0.899976 26.28 1.77998 28.2L5.25998 26.2C4.69998 24.88 4.31998 23.48 4.13998 22ZM26.2 5.25998L28.2 1.77998C26.28 0.899976 24.2 0.319976 22 0.0999756V4.13998C23.48 4.31998 24.88 4.69998 26.2 5.25998ZM35.86 18H39.9C39.68 15.8 39.1 13.72 38.22 11.8L34.74 13.8C35.3 15.12 35.68 16.52 35.86 18ZM13.8 34.74L11.8 38.22C13.72 39.1 15.82 39.68 18 39.9V35.86C16.52 35.68 15.12 35.3 13.8 34.74ZM18 4.13998V0.0999756C15.8 0.319976 13.72 0.899976 11.8 1.77998L13.8 5.25998C15.12 4.69998 16.52 4.31998 18 4.13998ZM32.72 10.34L36.2 8.31997C34.94 6.57997 33.4 5.03998 31.66 3.77998L29.64 7.25998C30.82 8.15998 31.84 9.17998 32.72 10.34ZM5.25998 13.8L1.77998 11.8C0.899976 13.72 0.319976 15.8 0.0999756 18H4.13998C4.31998 16.52 4.69998 15.12 5.25998 13.8ZM35.86 22C35.68 23.48 35.3 24.88 34.74 26.2L38.22 28.2C39.1 26.28 39.68 24.18 39.9 22H35.86V22ZM29.66 32.72L31.68 36.2C33.42 34.94 34.96 33.4 36.22 31.66L32.74 29.64C31.84 30.82 30.82 31.84 29.66 32.72ZM10.34 7.27998L8.33998 3.77998C6.57998 5.05998 5.05998 6.57998 3.79998 8.33998L7.27998 10.36C8.15998 9.17998 9.17998 8.15998 10.34 7.27998ZM7.27998 29.66L3.79998 31.66C5.05998 33.4 6.59998 34.94 8.33998 36.2L10.36 32.72C9.17998 31.84 8.15998 30.82 7.27998 29.66ZM22 9.99998H18V20.82L26.58 29.4L29.4 26.58L22 19.18V9.99998Z" fill="black"/>
+    </svg>
+        
+                <span>menu3</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                
+                
+            <svg width="24" height="40" viewBox="0 0 24 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0V12H0.0200005L0 12.02L8 20L0 28L0.0200005 28.02H0V40H24V28.02H23.98L24 28L16 20L24 12.02L23.98 12H24V0H0Z" fill="black"/>
+                </svg>
+    
+        
+                <span>menu4</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                
+                <svg width="44" height="36" viewBox="0 0 44 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M40 0.0200195H4C1.8 0.0200195 0 1.82002 0 4.02002V12H4V3.98002H40V32.04H4V24H0V32.02C0 34.22 1.8 35.98 4 35.98H40C42.2 35.98 44 34.22 44 32.02V4.02002C44 1.80002 42.2 0.0200195 40 0.0200195ZM20 26L28 18L20 10V16H0V20H20V26Z" fill="black"/>
+                </svg>
+        
+                <span>menu5</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+<!-- script -->
+
+
+<script>
+    
+      $('.slide').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows:false
+     });
+    
+  </script>
 </body>
 </html>
